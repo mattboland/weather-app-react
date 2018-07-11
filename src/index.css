@@ -1,5 +1,25 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.nav {
+    background: rgba(252,90,44,.89);
+    color: #fff;
+    padding: 5px;
+}
+
+.button {
+    display: inline-block;
+}
+
+.home-container {
+    background: rgba(252,90,44,.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    flex-direction: column;
 }
